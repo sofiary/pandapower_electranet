@@ -1,4 +1,5 @@
 import pandapower as pp
+from psseparser import parseraw
 
 # The RAW file is composed of the following columns,
 # based on the PSS/E v30 RAW format schema
@@ -23,3 +24,5 @@ if __name__ == "__main__":
     pp.runpp(net)
     print(net.res_bus.vm_pu)
     print(net.res_line.loading_percent)
+
+    parseraw()
