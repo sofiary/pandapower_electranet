@@ -132,4 +132,4 @@ dmypy.json
 temp-plot.html
 
 # ElectraNet Data
-Connection-Point-Data-20052020.xlsx
+data/Connection-Point-Data-20052020.xlsx

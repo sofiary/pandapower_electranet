@@ -16,5 +16,5 @@
         "Forecast10": true,
         "Forecast50": false 
     },
-    "worksheet_ignored_rows": [2, 3, 4]
+    "ignored_rows": [2, 3, 4]
 }
