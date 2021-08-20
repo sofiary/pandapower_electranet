@@ -130,3 +130,6 @@ dmypy.json
 
 # Plotly outputs
 temp-plot.html
+
+# ElectraNet Data
+Connection-Point-Data-20052020.xlsx
