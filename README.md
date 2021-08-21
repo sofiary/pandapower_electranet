@@ -25,3 +25,50 @@ Includes info on:
 
 ## Other
 None
+
+# Steps
+This program takes a number of sequential steps to build a replica ElectraNet network.
+
+## Model Creation
+We need to create:
+- buses with appropriate names and voltages;
+- lines with appropriate bus connections, names, lengths and types;
+- high voltage transformers with appropriate bus connections, names and types;
+- network shunts (where known) at an appropriate bus with a name and Q value;
+- network load elements (representing substation loads, in aggregate), with an appropriate bus connection, name and P,Q value;
+- network generation with an appropriate bus connection, name, size, type and capability curve info; and
+- external grid object(s) to represent the reference node (slack bus) generator.
+
+### Buses
+Bus data can be sourced from the ElectraNet 2019 Connection Point Data excel spreadsheet.
+
+### Transmission Lines
+#### Lengths
+Conductor lengths can be parsed directly from the <a href="https://www.aemo.com.au/aemo/data/map/layers/transmission.json">transmission.json</a> file publicly sourcable from AEMO.
+
+#### Conductor Types
+Transmission lines <a href="https://www.electranet.com.au/wp-content/uploads/2018/06/1-03-FR-09-Transmission-Line-General-Requirements-Including-Typical-Overhead-Line-Structures.pdf">are either</a> ACSR, AAAC or AAC. They are either 275kV, 132kV or 66kV. 
+
+#### HVDC
+To do
+
+#### Transformers
+To do
+
+#### Shunts
+To do
+
+#### Loads
+To do
+
+#### Generation
+To do
+
+#### External Grid
+To do
+
+## Model Tuning
+To do
+
+## Model Verification
+To do
