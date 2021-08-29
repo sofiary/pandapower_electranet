@@ -134,7 +134,7 @@ temp-plot.html
 # ElectraNet Data
 data/Connection-Point-Data-20052020.xlsx
 data/~$Connection-Point-Data-20052020.xlsx
-data/aemo_import_rules.json
-data/electranet_import_rules.json
+data/aemo_data_sources.json
+data/electranet_buses.json
 data/line_general.json
 data/line_types.json
